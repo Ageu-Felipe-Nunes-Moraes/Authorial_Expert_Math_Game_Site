@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Jogo Matemática Expert</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body id="game-page">
+    <div class="container2">
+        <img id= "background-image" src="tela_fundo_jogo_matematica.png" alt="Background screen with a landscape">
+        <h2 id="time">Tempo: </h2>
+        <h2 id="pontuacao">Pontuação: 0</h2>
+        <h1 id="question">_</h1>
+        <div class="button-options">
+            <button class="choiceButton" onclick="jogo.buttonClickOptions('first-option')" id="first-option"></button>
+            <button class="choiceButton" onclick="jogo.buttonClickOptions('second-option')" id="second-option"></button>
+            <button class="choiceButton" onclick="jogo.buttonClickOptions('third-option')" id="third-option"></button>
+            <button class="choiceButton" onclick="jogo.buttonClickOptions('fourth-option')" id="fourth-option"></button>
+        </div>    
+        <div class="pop-up" id="pop-up">
+            <img id="popupImage" src="teachingMath.png" alt="to Pop-up">
+            <h2 type="submit">GAME OVER!!!</h2>
+            <P id="pontuacao-final">Pontuação total: </P>
+            <p>Não se preocupe!!! Você irá cada vez mais longe!!</p>
+            <button id="restart-button" onclick="jogo.removePopupRestart()">Jogar Novamente</button>
+        </div>
+    </div>
+    <script src="jogo.js"></script>
+</body>
+</html>
