@@ -28,7 +28,7 @@ class Difficulty{
                 console.log("Botão não reconhecido");
         }
         localStorage.setItem('time', JSON.stringify(this.time))
-        window.location.href = "jogo.html"; // Redireciona para a página do jogo
+        window.location.href = "game.html"; // Redireciona para a página do jogo
     }
 }
 
