@@ -1,38 +1,37 @@
-# Matemática Expert (Site)
+# Math Expert (Website)
 
-Desenvolvi integralmente um jogo educacional chamado Matemática Expert, do conceito à implementação, com o propósito de aprimorar a velocidade de raciocínio matemático. Inspirado pela minha aspiração em fortalecer habilidades cognitivas essenciais para programação, criei este jogo com o objetivo de desafiar os jogadores a resolverem operações matemáticas dentro de um limite de tempo.
+I developed an educational game called Math Expert entirely from concept to implementation, with the purpose of improving mathematical thinking speed. Inspired by my aspiration to strengthen essential cognitive skills for programming, I created this game to challenge players to solve mathematical operations within a time limit.
 
-## Funcionalidades
+## Features
 
-- **Desafios Matemáticos:** O jogo apresenta operações matemáticas aleatórias para serem resolvidas.
-- **Tempo Limite:** O jogador tem um tempo limitado para resolver o maior número possível de operações.
-- **Diferentes Níveis de Dificuldade:** O jogador pode escolher entre diferentes níveis de dificuldade que afetam a duração do jogo.
-- **Pontuação:** Cada operação resolvida corretamente aumenta a pontuação do jogador.
+- **Math Challenges:** The game presents random mathematical operations to be solved.
+- **Time Limit:** The player has a limited time to solve as many operations as possible.
+- **Different Difficulty Levels:** The player can choose from different difficulty levels that affect the duration of the game.
+- **Scoring:** Each correctly solved operation increases the player's score.
 
-## Como Jogar
+## How to Play
 
-1. Clone ou baixe o repositório deste jogo.
-2. Abra o arquivo index.html no navegador.
-3. Na tela inicial, escolha um dos níveis de dificuldade disponíveis.
-4. O jogo iniciará, apresentando operações matemáticas para serem resolvidas.
-5. Clique na resposta correta para cada operação dentro do tempo limite.
-6. A cada operação correta, sua pontuação aumentará.
-7. Após o término do tempo, você poderá reiniciar o jogo se desejar.
+1. Clone or download the repository of this game.
+2. Open the index.html file in the browser.
+3. On the home screen, choose one of the available difficulty levels.
+4. The game will start, presenting mathematical operations to be solved.
+5. Click on the correct answer for each operation within the time limit.
+6. With each correct operation, your score will increase.
+7. After the time is up, you can restart the game if you wish.
 
-## Como Contribuir
+## How to Contribute
 
-Se desejar contribuir para o desenvolvimento deste jogo, siga estas etapas:
+If you wish to contribute to the development of this game, follow these steps:
 
-1. Fork o repositório.
-2. Faça suas modificações e melhorias nos códigos.
-3. Teste suas alterações para garantir que funcionem corretamente.
-4. Envie um pull request descrevendo as mudanças que você fez e suas razões para elas.
+1. Fork the repository.
+2. Make your modifications and improvements to the code.
+3. Test your changes to ensure they work correctly.
+4. Submit a pull request describing the changes you made and your reasons for them.
 
-## Autor
+## Author
 
-Este jogo foi cuidadosamente criado por Ageu Felipe Nunes Moraes com propósitos educacionais, como parte de um projeto pessoal dedicado ao fortalecimento das habilidades matemáticas dos jogadores. Para quaisquer dúvidas ou sugestões, por favor, entre em contato pelo e-mail [ageumoraes67@gmail.com].
+This game was carefully created by Ageu Felipe Nunes Moraes for educational purposes, as part of a personal project dedicated to strengthening players' math skills. For any questions or suggestions, please contact me at [ageumoraes67@gmail.com].
 
-## Aviso Legal
+## Disclaimer
 
-Este é um projeto de software desenvolvido por um indivíduo e não tem afiliação com nenhum outro jogo ou seus criadores.
-
+This is a software project developed by an individual and is not affiliated with any other game or its creators.
