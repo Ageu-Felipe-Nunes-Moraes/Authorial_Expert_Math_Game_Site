@@ -224,4 +224,34 @@ body#game-page{
     font-size: 1.2rem;
 }
 
+/*Media Query, Difficulty Screen, Initial Scope*/
+
+@media (max-width: 648px){
+    .button-options{
+        top: 60%;
+    }
+}
+
+@media (max-width: 530px){
+    .container2{
+        font-size: 11px;
+    }
+    .button-options button {
+        font-size: 11px;
+        margin: 1px;
+    }
+    .pop-up h2{
+        font-size: 14px;
+    }
+    .pop-up p{
+        font-size: 14px;
+    }
+
+    .pop-up button{
+        font-size: 14px;
+    }
+}
+
+/*Media Query, Difficulty Screen, End Scope*/
+
 /*End of game screen scope*/
