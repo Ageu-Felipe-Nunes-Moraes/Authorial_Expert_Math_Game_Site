@@ -14,14 +14,14 @@
 
 body#home-page{
     background-color: var(--blue-color);
-    margin: 0;
+    margin: auto;
     padding: 0;
     display: flex;
     justify-content: center;
     margin-top: 1rem;
 }
 
-.container {
+.main {
     display: inline-block;
     position: relative;
 }
@@ -40,6 +40,7 @@ body#home-page{
     display: block;
     width: 100%;
     border-radius: 15%;
+    margin: auto;
 }
 
 .difficulty-button {
@@ -55,7 +56,7 @@ body#home-page{
     background-color: var(--blue-color);
     border: none;
     color: white;
-    padding: 10px 20px;
+    padding: 1% 2%;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -70,13 +71,34 @@ body#home-page{
     background-color: var(--blue-color4);
 }
 
+/*Media Query, Difficulty Screen, Initial Scope*/
+
+@media (max-width: 648px){
+    .difficulty-button{
+        top: 60%;
+    }
+}
+
+@media (max-width: 460px){
+    .initial-text{
+        top: 15%;
+        font-size: 11px;
+    }
+    .difficulty-button button {
+        font-size: 11px;
+        margin: 1px;
+    }
+}
+
+/*Media Query, Difficulty Screen, End Scope*/
+
 /*End of home screen scope*/
 
 /*Launches game screen scope*/
 
 body#game-page{
     background-color: var(--blue-color);
-    margin: 0;
+    margin: auto;
     padding: 0;
     display: flex;
     justify-content: center;
