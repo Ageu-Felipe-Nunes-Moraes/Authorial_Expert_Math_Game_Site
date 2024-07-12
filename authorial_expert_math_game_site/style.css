@@ -22,7 +22,9 @@ body#home-page{
 }
 
 .main {
-    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: relative;
 }
 
@@ -106,7 +108,9 @@ body#game-page{
 }
 
 .container2 {
-    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: relative;
 }
 
